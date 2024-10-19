@@ -1,0 +1,5 @@
+csv_duckdb_dbt:
+  outputs:
+    dev:
+      type: duckdb
+      path: 'topcompany.duckdb'
